@@ -7,10 +7,8 @@
 Написать `create_table.sql` — таблица `subjects`. **SQL пишете сами**, ниже — только направляющие.
 
 ## Ограничители
-- MySQL 8+, InnoDB, utf8mb4
-- `id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY`
+- MySQL 8+
 - FK только из схемы, имя `<ref>_id`, `ON UPDATE CASCADE`
-- `COMMENT='...'` у таблицы
 - Только `CREATE TABLE`
 
 ## Рекомендуемые поля
