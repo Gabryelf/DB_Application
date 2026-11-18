@@ -14,7 +14,7 @@
 
 | Студент | Логин | Сущность | Папка |
 |---|---|---|---|
-| <img src="https://github.com/prosto73.png" width="24"/> Аджимуратов Роман | [@prosto73](https://github.com/prosto73) | Студенты | [`students`](database/scripts/entities/students/) |
+| <img src="https://github.com/prosto73.png" width="24"/> Аджимуратов Роман | [@prosto73](https://github.com/prosto73) | Студенты | [`students`](scripts/entities/students/) |
 | <img src="https://github.com/Gh0STof.png" width="24"/> Асадов Маджнун | [@Gh0STof](https://github.com/Gh0STof) | Учителя | [`teachers`](database/scripts/entities/teachers/) |
 | <img src="https://github.com/vikakilka91-dev.png" width="24"/> Будий Виктория | [@vikakilka91-dev](https://github.com/vikakilka91-dev) | Предметы | [`subjects`](database/scripts/entities/subjects/) |
 | <img src="https://github.com/top1miraEzGG.png" width="24"/> Бурчак Михаил | [@top1miraEzGG](https://github.com/top1miraEzGG) | Группы | [`groups`](database/scripts/entities/groups/) |
