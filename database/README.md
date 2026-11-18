@@ -5,8 +5,8 @@
 **Спринт 1:** каждый студент создаёт **одну таблицу** (MySQL) в своей папке.
 
 ## 👣 С чего начать
-1. **[Wiki: Старт]([../../wiki/Старт.md](https://github.com/TopCollegeTCF/DB_Application/wiki/Старт.md))** — правила и роадмап.
-2. **[Wiki: Схема сущностей]([../../wiki/Схема-сущностей.md](https://github.com/TopCollegeTCF/DB_Application/wiki/Схема-сущностей))** — карта таблиц и связей.
+1. **[Wiki: Старт]((https://github.com/TopCollegeTCF/DB_Application/wiki/Старт.md))** — правила и роадмап.
+2. **[Wiki: Схема сущностей]((https://github.com/TopCollegeTCF/DB_Application/wiki/Схема-сущностей))** — карта таблиц и связей.
 3. **[Projects: Kanban]([../../projects/6](https://github.com/TopCollegeTCF/DB_Application/projects))** — двигайте карточку по колонкам.
 4. **Ваша папка** — см. таблицу ниже.
 
