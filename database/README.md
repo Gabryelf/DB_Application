@@ -7,7 +7,7 @@
 ## 👣 С чего начать
 1. **[Wiki: Старт]((https://github.com/TopCollegeTCF/DB_Application/wiki/Старт.md))** — правила и роадмап.
 2. **[Wiki: Схема сущностей]((https://github.com/TopCollegeTCF/DB_Application/wiki/Схема-сущностей))** — карта таблиц и связей.
-3. **[Projects: Kanban]([../../projects/6](https://github.com/TopCollegeTCF/DB_Application/projects))** — двигайте карточку по колонкам.
+3. **[Projects: Academy-One]((https://github.com/TopCollegeTCF/DB_Application/projects))** — двигайте карточку по колонкам.
 4. **Ваша папка** — см. таблицу ниже.
 
 ## 👥 Студенты и закреплённые сущности
