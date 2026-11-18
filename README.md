@@ -137,7 +137,7 @@ DB_Application/
 <div align="center">
 
 
-Вопросы → [Discussions](../../discussions) · Задания → [Issues](../../issues?q=label%3Asprint-1) · Доска → [Projects](../../projects/1)
+Вопросы → [Discussions](../../discussions) · Задания → [Issues](../../issues?q=label%3Asprint-1) · Доска → [Projects](https://github.com/orgs/TopCollegeTCF/projects/6)
 
 </div>
 
