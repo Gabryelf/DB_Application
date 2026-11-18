@@ -1,0 +1,35 @@
+name: "Задание студента (Спринт 1)"
+description: "Создание таблицы для Цифровой Академии"
+title: "[Спринт 1] Таблица: <название_сущности>"
+labels: ["sprint-1", "database"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ваша задача
+        Создать SQL-скрипт таблицы для сущности **<название>**.
+        
+        **Ваша папка:** `database/scripts/entities/<ваш-логин>/`
+        **Схема связей:** [Wiki: <название>](ссылка)
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Чеклист выполнения"
+      options:
+        - label: "Ознакомился(ась) с Wiki: Старт и Схемой сущностей"
+        - label: "Создал(а) папку `database/scripts/entities/<логин>/`"
+        - label: "Написал(а) `create_table.sql` с PRIMARY KEY"
+        - label: "Добавил(а) FOREIGN KEY (если требуется по схеме)"
+        - label: "Добавил(а) комментарии к таблице и ключевым полям"
+        - label: "Проверил(а) синтаксис MySQL (локально или в онлайн-редакторе)"
+        - label: "Создал(а) Pull Request с описанием `Closes #<номер_этого_issue>`"
+        - label: "Перетащил(а) карточку в Projects в колонку `In Review`"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Примечания (если есть)"
+      description: "Например: какие поля добавили сверх схемы, какие связи вызвали вопросы."
+    validations:
+      required: false
