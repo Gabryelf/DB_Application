@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Цифровая Академия — Старт</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b1020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px;
+  }
+  .banner {
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #6d28d9 100%);
+    box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    color: #fff;
+  }
+  .banner::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+  .glow-1, .glow-2 {
+    position: absolute; border-radius: 50%; filter: blur(60px); opacity: .35;
+  }
+  .glow-1 { width: 340px; height: 340px; background: #22d3ee; top: -120px; right: -80px; }
+  .glow-2 { width: 380px; height: 380px; background: #a78bfa; bottom: -160px; left: -100px; }
+
+  .inner { position: relative; padding: 48px 56px; }
+
+  .top {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 14px;
+    background: linear-gradient(135deg, #22d3ee, #a78bfa);
+    display: grid; place-items: center;
+    font-weight: 800; font-size: 22px; color: #0f172a;
+    box-shadow: 0 8px 24px rgba(34,211,238,.35);
+  }
+  .brand-text h1 { font-size: 20px; font-weight: 700; letter-spacing: .3px; }
+  .brand-text p { font-size: 13px; color: #c7d2fe; margin-top: 2px; }
+
+  .pill {
+    font-size: 12px; font-weight: 700; letter-spacing: .5px;
+    padding: 8px 16px; border-radius: 999px;
+    background: rgba(34,211,238,.15);
+    border: 1px solid rgba(34,211,238,.45);
+    color: #67e8f9;
+    text-transform: uppercase;
+  }
+
+  .title {
+    font-size: 46px; font-weight: 800; line-height: 1.1;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #ffffff, #c7d2fe);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .subtitle { font-size: 18px; color: #cbd5e1; margin-bottom: 34px; }
+
+  .steps {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 34px;
+  }
+  .step {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 16px;
+    padding: 18px 16px;
+    backdrop-filter: blur(6px);
+    transition: transform .2s;
+  }
+  .step:hover { transform: translateY(-4px); }
+  .step .num {
+    width: 30px; height: 30px; border-radius: 9px;
+    background: linear-gradient(135deg, #22d3ee, #a78bfa);
+    color: #0f172a; font-weight: 800; font-size: 14px;
+    display: grid; place-items: center; margin-bottom: 12px;
+  }
+  .step h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .step p { font-size: 12.5px; color: #94a3b8; line-height: 1.45; }
+  .step code {
+    display: inline-block; margin-top: 6px;
+    font-size: 11px; background: rgba(0,0,0,.35);
+    padding: 3px 8px; border-radius: 6px; color: #67e8f9;
+    font-family: 'Consolas', monospace;
+  }
+
+  .rules {
+    display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px;
+  }
+  .rule {
+    font-size: 12.5px; padding: 7px 14px; border-radius: 999px;
+    background: rgba(255,255,255,.07);
+    border: 1px solid rgba(255,255,255,.14);
+    color: #e2e8f0;
+  }
+  .rule b { color: #67e8f9; font-weight: 700; }
+
+  .footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 22px; border-top: 1px solid rgba(255,255,255,.12);
+  }
+  .footer .links { display: flex; gap: 22px; font-size: 13px; }
+  .footer .links span { color: #94a3b8; }
+  .footer .links b { color: #c7d2fe; font-weight: 600; }
+  .cta {
+    font-size: 13px; font-weight: 700;
+    padding: 10px 20px; border-radius: 999px;
+    background: linear-gradient(90deg, #22d3ee, #a78bfa);
+    color: #0f172a;
+    box-shadow: 0 8px 24px rgba(167,139,250,.35);
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="inner">
+
+      <div class="top">
+        <div class="brand">
+          <div class="logo">ЦА</div>
+          <div class="brand-text">
+            <h1>Цифровая Академия</h1>
+            <p>База данных · Спринт 1</p>
+          </div>
+        </div>
+        <div class="pill">MySQL 8+ · 3НФ</div>
+      </div>
+
+      <div class="title">Твоя таблица — часть большой БД</div>
+      <div class="subtitle">23 студента · 23 таблицы · одна целостная база данных</div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Открой папку database</h3>
+          <p>В корне репозитория найди свою папку по имени сущности.</p>
+          <code>database/scripts/entities/&lt;table&gt;/</code>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Прочитай README</h3>
+          <p>Внутри — задание, поля-рекомендации и связи с другими таблицами.</p>
+          <code>README.md</code>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Напиши SQL</h3>
+          <p>Создай файл с таблицей: PK, FK, комментарии. Только CREATE TABLE.</p>
+          <code>create_table.sql</code>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h3>Сдай работу</h3>
+          <p>Коммит → PR → галочки в Issue → карточка в Projects → In Review.</p>
+          <code>Closes #issue</code>
+        </div>
+      </div>
+
+      <div class="rules">
+        <div class="rule"><b>id</b> — всегда PRIMARY KEY</div>
+        <div class="rule">FK: <b>&lt;сущность&gt;_id</b></div>
+        <div class="rule">InnoDB · utf8mb4</div>
+        <div class="rule">единый стиль - теги UpperCase</div>
+        <div class="rule">единый стиль - наши названия SnakeCase</div>
+        <div class="rule">3НФ — без дублей</div>
+      </div>
+
+      <div class="footer">
+        <div class="links">
+          <span>Wiki: <b>Старт</b></span>
+          <span>Wiki: <b>Схема сущностей</b></span>
+          <span>Issues: <b>label: sprint-1</b></span>
+          <span>Projects: <b>Kanban</b></span>
+        </div>
+        <div class="cta">Переходим в репозиторий проекта https://github.com/TopCollegeTCF/DB_Application</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
