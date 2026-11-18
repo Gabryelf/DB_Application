@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <circle cx="1050" cy="60" r="120" fill="#22d3ee" opacity="0.12"/>
+  <circle cx="150" cy="260" r="140" fill="#a78bfa" opacity="0.12"/>
+  <circle cx="600" cy="150" r="220" fill="#3b82f6" opacity="0.08"/>
+
+  <text x="60" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">
+    Цифровая Академия
+  </text>
+  <text x="60" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c7d2fe">
+    База данных · Спринт 1 — Таблицы
+  </text>
+
+  <rect x="60" y="195" width="220" height="44" rx="22" fill="url(#accent)"/>
+  <text x="170" y="223" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">
+    MySQL 8+ · 3НФ
+  </text>
+
+  <text x="60" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94a3b8">
+    23 таблицы · 23 студента · одна целостная БД
+  </text>
+
+  <g transform="translate(980,150)" opacity="0.9">
+    <ellipse cx="0" cy="0" rx="70" ry="24" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <ellipse cx="0" cy="-36" rx="70" ry="24" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="0" cy="36" rx="70" ry="24" fill="none" stroke="#60a5fa" stroke-width="3"/>
+    <line x1="-70" y1="0" x2="-70" y2="-36" stroke="#22d3ee" stroke-width="3"/>
+    <line x1="70" y1="0" x2="70" y2="-36" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="-70" y1="0" x2="-70" y2="36" stroke="#60a5fa" stroke-width="3"/>
+    <line x1="70" y1="0" x2="70" y2="36" stroke="#60a5fa" stroke-width="3"/>
+  </g>
+</svg>
