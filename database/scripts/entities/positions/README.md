@@ -1,0 +1,25 @@
+# `positions` — Должности
+
+**Студент:** Челоусов Вячеслав ([@ddddd456](https://github.com/ddddd456))
+**Issue:** ищите в Issues по метке `sprint-1`· **Схема:** [Схема-сущностей](../../../../wiki/Схема-сущностей)
+
+## Задача
+Написать `create_table.sql` — таблица `positions`. **SQL пишете сами**, ниже — только направляющие.
+
+## Ограничители
+- MySQL 8+
+- FK только из схемы, имя `<ref>_id`, `ON UPDATE CASCADE`
+- Только `CREATE TABLE`
+
+## Рекомендуемые поля
+`title` UNIQUE, `description`.
+
+## Связи
+| Связь | Таблица | Поле |
+|---|---|---|
+| 1:N | `teachers` | `position_id` |
+
+## Сдача
+1. Коммит `feat: add positions table` в ветку `student/ddddd456`.
+2. PR в `main` с `Closes #<номер_issue>`.
+3. Галочки в Issue + карточка в Projects → `In Review`.
