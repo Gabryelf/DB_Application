@@ -1,5 +1,9 @@
 # Цифровая Академия — База данных (Спринт 1: Таблицы)
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TopCollegeTCF/DB_Application/main/.github/assets/banner.svg" alt="Цифровая Академия — База данных" width="100%"/>
+</div>
+
 [![MySQL](https://img.shields.io/badge/MySQL-8%2B-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![InnoDB](https://img.shields.io/badge/Engine-InnoDB-003B57?logo=mysql&logoColor=white)](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
 [![utf8mb4](https://img.shields.io/badge/Charset-utf8mb4-6DB33F)](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode.html)
