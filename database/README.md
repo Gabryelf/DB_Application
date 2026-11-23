@@ -29,7 +29,7 @@
 | <img src="https://github.com/isqra.png" width="24"/> Насруллаев Искандер | [@isqra](https://github.com/isqra) | Экзамены | [`exams`](scripts/entities/exams/) |
 | <img src="https://github.com/nktnvrvskj.png" width="24"/> Неверовский Никита | [@nktnvrvskj](https://github.com/nktnvrvskj) | Результаты экзаменов | [`exam_results`](scripts/entities/exam_results/) |
 | <img src="https://github.com/SanukuAnuku.png" width="24"/> Панченко Надежда | [@SanukuAnuku](https://github.com/SanukuAnuku) | Специальности | [`specialties`](scripts/entities/specialties/) |
-| <img src="https://github.com/Qwertyuiopzxczxc.png" width="24"/> Сабуров Владислав | [@Qwertyuiopzxczxc](https://github.com/Qwertyuiopzxczxc) | Учебные планы | [`curricula`](database/scripts/entities/curricula/) |
+| <img src="https://github.com/Qwertyuiopzxczxc.png" width="24"/> Сабуров Владислав | [@Qwertyuiopzxczxc](https://github.com/Qwertyuiopzxczxc) | Учебные планы | [`curricula`](scripts/entities/curricula/) |
 | <img src="https://github.com/Leksiin.png" width="24"/> Скачков Артем | [@Leksiin](https://github.com/Leksiin) | Родители | [`parents`](scripts/entities/parents/) |
 | <img src="https://github.com/nim-24.png" width="24"/> Усеинова Арзы | [@nim-24](https://github.com/nim-24) | Связь студент–родитель | [`student_parents`](scripts/entities/student_parents/) |
 
