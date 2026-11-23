@@ -13,4 +13,4 @@ CREATE TABLE IF NOT EXISTS exams (
         ON UPDATE CASCADE
 );
 
-COMMENT='Экзамены'
+COMMENT='Экзамены';
