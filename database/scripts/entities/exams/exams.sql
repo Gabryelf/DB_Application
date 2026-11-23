@@ -1,4 +1,4 @@
-CREATE TABLE exams (
+CREATE TABLE IF NOT EXISTS exams (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     subject_id INT NOT NULL,
     group_id INT NOT NULL,
@@ -12,3 +12,5 @@ CREATE TABLE exams (
         REFERENCES groups(id)
         ON UPDATE CASCADE
 );
+
+COMMENT='Экзамены'
