@@ -1,27 +1,19 @@
 CREATE TABLE IF NOT EXISTS lessons (
-    lesson_id      INT UNSIGNED      NOT NULL AUTO_INCREMENT COMMENT 'Уникальный ID занятия',
-    title          VARCHAR(200)      NOT NULL                COMMENT 'Название/тема занятия',
-    lesson_type    ENUM('lecture','practice','lab','seminar','exam','consultation')
-                                     NOT NULL DEFAULT 'lecture' COMMENT 'Тип занятия',
-    group_id       INT UNSIGNED      NOT NULL                COMMENT 'Группа',
-    subject_id     INT UNSIGNED      NOT NULL                COMMENT 'Предмет',
-    teacher_id     INT UNSIGNED      NOT NULL                COMMENT 'Преподаватель',
-    classroom_id   INT UNSIGNED      NULL                    COMMENT 'Аудитория',
-    course_id      INT UNSIGNED      NULL                    COMMENT 'Курс',
-    duration_min   SMALLINT UNSIGNED NOT NULL DEFAULT 90     COMMENT 'Длительность в минутах',
-    description    TEXT              NULL                    COMMENT 'Описание/план занятия',
-    is_active      TINYINT(1)        NOT NULL DEFAULT 1      COMMENT 'Активно ли занятие',
-    created_at     DATETIME          NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Дата создания',
-    updated_at     DATETIME          NOT NULL DEFAULT CURRENT_TIMESTAMP
-                                     ON UPDATE CURRENT_TIMESTAMP COMMENT 'Дата обновления',
+    id             INT UNSIGNED      NOT NULL AUTO_INCREMENT ,
+    title          VARCHAR(200)      NOT NULL                ,
+    lesson_type    ENUM('lecture','practice','lab','seminar','exam','consultation') NOT NULL DEFAULT 'lecture',                               
+    group_id       INT UNSIGNED      NOT NULL,
+    subject_id     INT UNSIGNED      NOT NULL,
+    teacher_id     INT UNSIGNED      NOT NULL,
+    classroom_id   INT UNSIGNED      NULL,
+    course_id      INT UNSIGNED      NULL,
+    duration_min   SMALLINT UNSIGNED NOT NULL DEFAULT 90,
+    description    VARCHAR(50)       NULL,
+    is_active      TINYINT(1)        NOT NULL DEFAULT 1,
+    created_at     DATETIME          NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at     DATETIME          NOT NULL DEFAULT CURRENT_TIMESTAMPON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (lesson_id),
-
-    KEY idx_lessons_group     (group_id),
-    KEY idx_lessons_subject   (subject_id),
-    KEY idx_lessons_teacher   (teacher_id),
-    KEY idx_lessons_classroom (classroom_id),
-    KEY idx_lessons_course    (course_id),
 
     CONSTRAINT fk_lessons_group
         FOREIGN KEY (group_id)     REFERENCES groups     (group_id)
