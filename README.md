@@ -140,6 +140,6 @@ DB_Application/
 Вопросы → [Discussions](../../discussions) · Задания → [Issues](../../issues?q=label%3Asprint-1) · Доска → [Projects](https://github.com/orgs/TopCollegeTCF/projects/6)
 
 </div>
-
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLIPcUQ6UUB3XkGqgC8dcYuc1j_gX73ZR3jzwjuoEeA&s=10" alt="аята-кун" width="300">
 ---
 
