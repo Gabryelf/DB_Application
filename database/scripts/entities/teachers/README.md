@@ -1,7 +1,9 @@
 # `teachers` — Учителя
 
-**Студент:** Асадов Маджнун ([@Gh0STof](https://github.com/Gh0STof))
+**Студент:** Аято Клубяричнеев ([@Gh0STof](https://github.com/Gh0STof))
 **Issue:** ищите в Issues по метке `sprint-1`· **Схема:** [Схема-сущностей](../../../../wiki/Схема-сущностей)
+<img src="https://static.wikia.nocookie.net/yaoiboyslove/images/0/0a/Ayato_-_Yarichin%E2%98%86Bitch-bu.jpg/revision/latest/scale-to-width-down/536?cb=20260809011627" alt="Аято" style="display: inline-block; margin: 0 auto; max-width: 300px;">
+
 
 ## Задача
 Написать `create_table.sql` — таблица `teachers`. **SQL пишете сами**, ниже — только направляющие.
