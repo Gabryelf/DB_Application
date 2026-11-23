@@ -4,7 +4,7 @@ CREATE TABLE grades (
     lesson_id  INT UNSIGNED NOT NULL,
     grade      TINYINT NOT NULL,
     graded_at  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    `comment`  VARCHAR(255) NULL,
+    comment  VARCHAR(255) NULL,
     PRIMARY KEY (id),
     CONSTRAINT chk_grades_grade CHECK (grade BETWEEN 1 AND 5),
     CONSTRAINT student_id FOREIGN KEY (student_id)
