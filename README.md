@@ -1,7 +1,7 @@
 # Цифровая Академия — База данных (Спринт 1: Таблицы)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TopCollegeTCF/DB_Application/main/.github/assets/banner.svg" alt="Цифровая Академия — База данных" width="100%"/>
+  <img src="https://github.com/Gabryelf/DB_Application/blob/main/.github/assets/banner.png" alt="Цифровая Академия — База данных" width="100%"/>
 </div>
 
 [![MySQL](https://img.shields.io/badge/MySQL-8%2B-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
