@@ -39,7 +39,7 @@ database/scripts/entities/<table>/create_table.sql
 
 ### Шаг 4 — Issues и Projects
 - **[Issues (label: `sprint-1`)](../../issues?q=label%3Asprint-1)** — ваше задание с чекбоксами. Отмечайте выполненные пункты.
-- **[Projects: Kanban](../../projects/1)** — двигайте свою карточку: `Todo` → `In Progress` → `In Review` → `Done`.
+- **[Projects: Kanban](../../projects/1)** — двигайте свою карточку: `Todo` → `In Progress` → `In Review` → `Done`..
 
 ---
 
