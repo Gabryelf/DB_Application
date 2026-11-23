@@ -4,7 +4,7 @@ create table student_parents(
   parent_id int not null unique,
   relation ENUM('mother','father','guardian'),
   
-	CONSTRAINT student_id FOREIGN KEY (student_id) REFERENCES student (id),
-	CONSTRAINT parent_id FOREIGN KEY (parent_id) REFERENCES parents (id)
+	CONSTRAINT student_id FOREIGN KEY (student_id) REFERENCES student (id) ON UPDATE CASCADE,
+	CONSTRAINT parent_id FOREIGN KEY (parent_id) REFERENCES parents (id) ON UPDATE CASCADE
 ); 
 comment = 'Связь студент-родитель';
