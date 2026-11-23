@@ -17,11 +17,11 @@
 | <img src="https://github.com/kpe4.png" width="24"/> Анафиев Тимурлан | [@kpe4](https://github.com/kpe4) | Студенты | [`students`](scripts/entities/students/) |
 | <img src="https://github.com/gearencore.png" width="24"/> Андросов Илья | [@gearencore](https://github.com/gearencore) | Учителя | [`teachers`](scripts/entities/teachers/) |
 | <img src="https://github.com/AnaliniDebozhir228.png" width="24"/> Аркаев Алексей | [@AnaliniDebozhir228](https://github.com/AnaliniDebozhir228) | Предметы | [`subjects`](scripts/entities/subjects/) |
-| <img src="https://github.com/scalaragg.png" width="24"/> Бражник Иван | [@scalaragg](https://github.com/scalaragg) | Группы | [`groups`](/scripts/entities/groups/) |
+| <img src="https://github.com/scalaragg.png" width="24"/> Бражник Иван | [@scalaragg](https://github.com/scalaragg) | Группы | [`groups`](scripts/entities/groups/) |
 | <img src="https://github.com/Pakostb.png" width="24"/> Герасимчук Ярослав | [@Pakostb](https://github.com/Pakostb) | Аудитории | [`classrooms`](scripts/entities/classrooms/) |
 | <img src="https://github.com/Artijetsu.png" width="24"/> Кирюханцев Александр | [@Artijetsu](https://github.com/Artijetsu) | Курсы | [`courses`](scripts/entities/courses/) |
 | <img src="https://github.com/TEJl0.png" width="24"/> Лозинский Александр | [@TEJl0](https://github.com/TEJl0) | Занятия | [`lessons`](scripts/entities/lessons/) |
-| <img src="https://github.com/muesimka.png" width="24"/> Маринич Дарья | [@muesimka](https://github.com/muesimka) | Расписание | [`schedule`](/scripts/entities/schedule/) |
+| <img src="https://github.com/muesimka.png" width="24"/> Маринич Дарья | [@muesimka](https://github.com/muesimka) | Расписание | [`schedule`](scripts/entities/schedule/) |
 | <img src="https://github.com/AndMarc-rpo251.png" width="24"/> Марценюк Андрей | [@AndMarc-rpo251](https://github.com/AndMarc-rpo251) | Оценки | [`grades`](scripts/entities/grades/) |
 | <img src="https://github.com/kirilmaslenok-stack.png" width="24"/> Масленников Кирилл | [@kirilmaslenok-stack](https://github.com/kirilmaslenok-stack) | Посещаемость | [`attendance`](scripts/entities/attendance/) |
 | <img src="https://github.com/requisite8.png" width="24"/> Меметов Арсен | [@requisite8](https://github.com/requisite8) | Домашние задания | [`homework`](scripts/entities/homework/) |
