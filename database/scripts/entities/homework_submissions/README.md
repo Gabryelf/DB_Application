@@ -1,6 +1,6 @@
 # `homework_submissions` — Сдачи ДЗ
 
-**Студент:** Руденко Ярослав ([@Pochtovyaschik](https://github.com/Pochtovyaschik))
+**Студент:** Молчанов Максим ([@Rand125](https://github.com/Rand125))
 **Issue:** ищите в Issues по метке `sprint-1`· **Схема:** [Схема-сущностей](../../../../wiki/Схема-сущностей)
 
 ## Задача
