@@ -1,6 +1,6 @@
 # `curricula` — Учебные планы
 
-**Студент:** Суремкин Тимофей ([@Pomedorchik](https://github.com/Pomedorchik))
+**Студент:** Сабуров Владислав ([@Qwertyuiopzxczxc](https://github.com/Qwertyuiopzxczxc))
 **Issue:** ищите в Issues по метке `sprint-1`· **Схема:** [Схема-сущностей](../../../../wiki/Схема-сущностей)
 
 ## Задача
