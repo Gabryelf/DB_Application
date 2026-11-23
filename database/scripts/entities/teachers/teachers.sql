@@ -1,5 +1,5 @@
 CREATE TABLE teachers (
-    teacher_id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL UNIQUE,
     position_id INT NOT NULL,
     first_name VARCHAR(100) NOT NULL,
