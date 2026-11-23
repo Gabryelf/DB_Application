@@ -9,7 +9,7 @@
 [![utf8mb4](https://img.shields.io/badge/Charset-utf8mb4-6DB33F)](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode.html)
 [![3NF](https://img.shields.io/badge/Normalization-3NF-blueviolet)](https://ru.wikipedia.org/wiki/Третья_нормальная_форма)
 [![Sprint](https://img.shields.io/badge/Sprint-1%20%7C%20Tables-orange)](../../issues?q=label%3Asprint-1)
-[![Discussions](https://img.shields.io/badge/Questions-Discussions-8A2BE2)](../../discussions)
+[![Discussions]([https://img.shields.io/badge/Questions-Discussions-8A2BE2)](../../discussions](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLIPcUQ6UUB3XkGqgC8dcYuc1j_gX73ZR3jzwjuoEeA&s=10))
 
 ---
 
