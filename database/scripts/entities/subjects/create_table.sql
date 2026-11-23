@@ -2,7 +2,11 @@ CREATE TABLE subjects (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     course_id INT UNSIGNED NOT NULL,
     title VARCHAR(255) NOT NULL,
-    hours INT UNSIGNED NOT NULL
+    hours INT UNSIGNED NOT NULL,
+
+    FOREIGN KEY (course_id)
+        REFERENCES courses(id)
+        ON UPDATE CASCADE
 )
 ENGINE=InnoDB
 DEFAULT CHARSET=utf8mb4
