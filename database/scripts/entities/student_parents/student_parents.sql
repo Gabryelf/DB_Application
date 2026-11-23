@@ -6,4 +6,5 @@ create table student_parents(
   
    CONSTRAINT student_id FOREIGN KEY (student_id) REFERENCES student (id),
 	CONSTRAINT parent_id FOREIGN KEY (parent_id) REFERENCES parents (id)
-);
+); 
+comment = 'Связь студент-родитель';
