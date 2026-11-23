@@ -9,6 +9,6 @@ CREATE TABLE exams (
         ON UPDATE CASCADE,
 
     FOREIGN KEY (group_id)
-        REFERENCES `groups`(id)
+        REFERENCES groups(id)
         ON UPDATE CASCADE
 );
