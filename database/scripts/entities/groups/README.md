@@ -1,6 +1,6 @@
 # `groups` — Группы
 
-**Студент:** Бурчак Михаил ([@top1miraEzGG](https://github.com/top1miraEzGG))
+**Студент:** Бражник Иван ([@scalaragg](https://github.com/scalaragg))
 **Issue:** ищите в Issues по метке `sprint-1`· **Схема:** [Схема-сущностей](../../../../wiki/Схема-сущностей)
 
 ## Задача
