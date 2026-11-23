@@ -21,6 +21,6 @@
 | N:1 | `subjects` | `subject_id` |
 
 ## Сдача
-1. Коммит `feat: add curricula table` в ветку `student/Pomedorchik`.
+1. Коммит `feat: add curricula table` в ветку `student/Qwertyuiopzxczxc`.
 2. PR в `main` с `Closes #<номер_issue>`.
 3. Галочки в Issue + карточка в Projects → `In Review`.
