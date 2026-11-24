@@ -22,6 +22,6 @@
 | 1:N | `exam_results` | `exam_id` |
 
 ## Сдача
-1. Коммит `feat: add exams table` в ветку `student/Eridan6935`.
+1. Коммит `feat: add exams table` в ветку `student/isqra`.
 2. PR в `main` с `Closes #<номер_issue>`.
 3. Галочки в Issue + карточка в Projects → `In Review`.
