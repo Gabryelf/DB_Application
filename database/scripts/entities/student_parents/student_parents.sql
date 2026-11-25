@@ -8,4 +8,4 @@ create table student_parents(
 	CONSTRAINT parent_id FOREIGN KEY (parent_id) REFERENCES parents (id) ON DELETE CASCADE
 ); 
 
-COMMENT='Связь Студент-Родитель';
+comment = 'связь студент-родитель';
